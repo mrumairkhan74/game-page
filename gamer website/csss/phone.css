@@ -1,0 +1,55 @@
+nav ul{
+    width: 100%;
+    background:linear-gradient(#606ff5, #304fff);
+    position:absolute;
+    top: 75px;
+    right: 0;
+    z-index: -0; 
+}
+nav ul li{
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+nav ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+.row{
+    flex-direction: column-reverse;
+    margin: 50px 0;
+}
+.col-2{
+    flex-basis: 100%;
+    margin-bottom: 50px;
+}
+.col-2 .controller{
+    width: 77%;
+}
+
+.color-box{
+    transform: translateX(75px);
+}
+.col-1{
+    flex-basis: 100%;
+}
+.col-1 h2{
+    font-size: 35px;
+}
+.col-1 h3{
+    font-size: 15px;
+}
+.menu-icon{
+    display: block;
+    transition: all 1s ease-in-out;
+}
+.menu-icon:hover{
+    transform: rotate(360deg);
+    background: #5d75fa;
+    border-radius: 15px;
+    padding: 12px;
+}
+#menuList{
+    overflow: hidden;
+    transition: 0.5s;
+}
